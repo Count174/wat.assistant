@@ -247,16 +247,22 @@
                 </div>
                 <form id="registerform" method="post" name="registerform" action="">
                     <div class="form-group">
-                        <input list="states" name="states" class="form-control" placeholder="Желаемый штат(Тут будет выпадающее меню)">
+                        <input list="states" name="states" class="form-control" placeholder="Желаемый штат">
                         <datalist id="states">
                             <option value="Alabama">
                             <option value="Alaska">
                             <option value="New Jersey">
-                            </option>
                             </datalist>    
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Желаемая работа(тут будет выпадающее меню)">
+                        <input list="jobs" name="jobs" class="form-control" placeholder="Желаемая работа">
+                        <datalist id="jobs">
+                            <option value="Busser">
+                            <option value="Runner">
+                            <option value="Server">
+                            <option vavlue="Dishwasher">
+                            <option value="Housekeeper">
+                        </datalist>
                     </div>
                     <div class="form-group">
                         <input type="number" class="form-control" placeholder="Желаемая зарплата">
