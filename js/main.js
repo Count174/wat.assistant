@@ -334,6 +334,14 @@ var $container = $('.masonry');
 
 
 
+  // singn up modal
+  <script>
+  $(document).ready(function() {
+    $("site-btn top_30").click(function() {
+      $("#signUpModal").modal('show');
+    })
+  });
+  </script>
 
 
 }); // document read end 
